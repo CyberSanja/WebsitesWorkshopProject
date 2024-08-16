@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/***************
+    Header
+**************/
+
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+section{
+    padding: 50px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+/***************
+    Hero
+**************/
+
+.hero{
+    padding: 200px 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.hero h3{
+    margin: 20px;
+}
+
+/***************
+Daleke destinacije
+**************/
+
+.dalekeDestinacije .location article{
+    width: 48%;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/***************
+    Evropa
+**************/
+#evropa article{
+    width: 32%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#srbija article{
+    width: 48%;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+footer div{
+    text-align: center;
+    padding: 15px;
+}
+
